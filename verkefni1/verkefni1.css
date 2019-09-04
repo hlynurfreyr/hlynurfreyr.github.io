@@ -1,0 +1,40 @@
+.titill{
+    color: blue;
+    text-align: center;
+}
+
+.raud{
+    color: red;
+}
+
+.darkred{
+    color: darkred;
+}
+
+.indent{
+    margin-left: 50px;
+}
+
+.blue{
+    color:blue;
+}
+
+body{
+    border:2px solid blue;
+    padding: 8px;
+    font-family: Arial;
+    width: 800px;
+    margin:0 auto;
+}
+
+.graenn{
+    color:green;
+}
+
+.ska{
+    font-style: italic
+}
+
+.bold{
+    font-style: bold;
+}
