@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+.boxm{
+    border: 1px solid green;
+    margin: 50px;
+}
+
+.boxm2{
+    border: 5px dashed blue;
+    margin: 50px;
+    padding: 5px;
+}
+
+.bigbox{
+    border: 5px solid red; 
+    margin: 50px;
+}
+
+.raud{
+    color: red;
+}
+
+.bla{
+    color: blue;
+}
+
+.stafur{
+    font-size: 100px;
+    float: left;
+    margin-bottom: 1px;
+}
+
+.box{
+    border:1px solid black;
+    width:50%;
+    float:left;
+}
+
+.mynd{
+    float:right;
+}
+
+.gulbox{
+    background: yellow;
+    text-align: center;
+
+}
+
+.box0{
+    border:1px solid black;
+    margin-top: 24.3em;
+}
+
+.dgbox{
+    border: 1px dashed green;
+    padding: 10px;
+}
+
+.center{
+    align-content: center;
+}
+
+.list1{
+    display: block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed green;
+}
+
+.list2{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed blue;
+}
+
+.list3{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+}
