@@ -1,0 +1,74 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    background-color: lightgreen;
+    display: grid;
+    grid-template-areas: 
+    "valstika valstika valstika valstika valstika"
+    "haus haus haus haus haus"
+    "midja midja midja midja haegri"
+    "fotur fotur fotur fotur fotur"
+}
+
+.border{
+    border: 1px solid black;
+}
+
+.border1{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.B{
+    font-weight: bold;
+}
+
+.header{
+    grid-area: haus;
+    border: 1px solid black;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-area: valstika;
+    border: 1px solid black;
+}
+
+.left{
+    grid-area: vinstri;
+    border: 1px solid black;
+}
+.main{
+    grid-area: midja;
+    border: 1px solid black;
+}
+.right{
+    grid-area: haegri;
+    border: 1px solid black;
+}
+.footer{
+    display: grid;
+    grid-area: fotur;
+    border: 1px solid black;
+}
+
+.mid{
+    text-align: center;
+}
+
+.pad{
+    padding: 10px;
+}
+
+.b{
+    background-color: lightblue
+}
+.gu{
+    background-color: yellow;
+}
+.gr{
+    background-color: greenyellow;
+}
