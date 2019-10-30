@@ -1,0 +1,133 @@
+* { box-sizing: border-box }
+* {font-family: Staatliches }
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    display:grid;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.col-6{
+    display:grid;
+    grid-template-columns: repeat(6,1fr)
+}
+
+.gap-4 {
+    grid-gap: 4em
+}
+
+.box{
+    padding:10px;
+    text-align: center;
+}
+
+.borderbox{
+    padding:10px;
+}
+
+.bgc-ly-w{
+    background-image: linear-gradient(lightyellow, white)
+}
+
+.bgc-y-w{
+    background-image: linear-gradient(rgb(240, 212, 131),rgb(245, 240, 208))
+}
+
+.bcg-w-y{
+    background-image:linear-gradient(rgb(248, 233, 190), rgb(248, 242, 216))
+}
+
+.bgc-lb-b{
+    background-image: linear-gradient(rgb(3, 68, 136),rgb(0, 29, 57))
+}
+
+.center{
+    text-align: center;
+}
+
+.cw{
+    color: white;
+}
+
+.h100{
+    height:100vh;
+}
+
+.bcb{
+    background-color: rgb(0, 100, 206);
+}
+
+.contentcenter {
+  padding: 50px 0;
+}
+
+.textcenter{
+    vertical-align: middle;
+}
+
+a:link{
+    color: grey;
+}
+
+a:visited{
+    color: goldenrod;
+}
+
+a:hover{
+    background-color: purple;
+}
+
+.hover:hover{
+    background-color: grey;
+}
+
+.verkefni{
+
+}
+
+.topnav{
+
+}
+
+.copy{
+
+}
+
+.pila{
+    height:50px;
+    width:50px;
+    background: green;
+    position: fixed;
+    right:50px;
+    bottom:50px;
+    border-radius: 50%;
+    font-size:40px;
+    text-align: center;
+}
